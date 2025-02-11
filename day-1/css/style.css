@@ -120,6 +120,7 @@ div.left-bar span {
     height: 30px;
     background-color: #858585;
     border-radius: 50%;
+    background-image: url(../../img/profile.svg);
 }
 
 /* Hover */
