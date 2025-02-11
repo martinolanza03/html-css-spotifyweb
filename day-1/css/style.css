@@ -14,7 +14,7 @@ body {
     list-style-type: none;
 }
 
-/* Main */
+/* Main left-bar */
 
 main {
     height: calc(100vh - 90px);
@@ -80,6 +80,13 @@ div.left-bar div.user div {
 
 div.circle img {
     height: 22px;   
+}
+
+/* Main right-section */
+
+.right-section {
+    display: flex;
+    flex-direction: column;
 }
 
 
