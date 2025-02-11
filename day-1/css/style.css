@@ -157,5 +157,11 @@ footer {
         margin-bottom: 20px;
         font-size: 32px;
     }
+
+    div.left-bar div.user hr {
+        background-color: #949494;
+        height: 1px;
+        border: 0;
+    }
     
 }
