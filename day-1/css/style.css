@@ -153,11 +153,7 @@ footer {
         padding: 25px;
         color: white;
     }
-
-    footer {
-        height: 170px;
-    }
-    
+   
     .hidden {
         display: block;
     }
