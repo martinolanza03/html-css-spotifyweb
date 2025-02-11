@@ -42,7 +42,7 @@ main {
 .playlist {
     display: flex;
     flex-direction: column;
-    gap: 50px ;
+    gap: 25px ;
 }
 
 div.playlist div {
@@ -54,7 +54,7 @@ div.playlist div.list-playlist ul {
     color: #949494 ;
     display: flex;
     flex-direction: column;
-    gap: 44px;
+    gap: 15px;
 
 }
 
@@ -69,13 +69,13 @@ div.playlist div.list-playlist ul {
 }
 
 .add-playlist {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     background-color: #858585;
     color: #000000;
     font-size: 26px;
     font-weight: bold;
-    padding: 25px;
+    padding: 12px;
     margin-right: 20px;
 }
 
@@ -95,6 +95,7 @@ footer {
 
 
 @media screen and (min-width: 992px) {
+
     .left-bar {
         height: calc(100vh - 90px);
         width: 460px;
@@ -112,7 +113,7 @@ footer {
     }
 
     .spotify-logo {
-        width: 100%;
+        width: 170px;
     }
 
     div.left-bar div.menu div {
@@ -122,15 +123,15 @@ footer {
     }
 
     div.left-bar div.menu img {
-        height: 44px;
+        height: 30px;
     }
 
     div.left-bar div.menu {
-        margin-bottom: 66px;
+        margin-bottom: 33px;
     }
 
     div.left-bar h2 {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         font-size: 32px;
     }
     
