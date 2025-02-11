@@ -5,3 +5,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Footer */
+
+footer {
+    height: 90px;
+    background-color: #282828;
+}
