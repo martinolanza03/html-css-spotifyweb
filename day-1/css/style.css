@@ -63,7 +63,13 @@ main {
     font-size: 26px;
     font-weight: bold;
     padding: 25px;
+    margin-right: 20px;
 }
+
+div.left-bar span {
+    color: #949494 ;
+}
+
 
 
 
