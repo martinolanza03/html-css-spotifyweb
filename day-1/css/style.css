@@ -98,7 +98,7 @@ footer {
 
     .left-bar {
         height: calc(100vh - 90px);
-        width: 460px;
+        width: 300px;
         background-color: #000000;
         padding: 25px 75px 25px 21px;
         color: white;
