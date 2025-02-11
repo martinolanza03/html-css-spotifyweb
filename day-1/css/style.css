@@ -18,7 +18,9 @@ body {
 
 main {
     height: calc(100vh - 90px);
-    background-color: #151922;
+    background-color: #151922; 
+    display: flex;
+    flex-direction: row;
 }
 
 .left-bar {
@@ -87,6 +89,11 @@ div.circle img {
 .right-section {
     display: flex;
     flex-direction: column;
+}
+
+.up-right {
+    height: 175px;
+    background-color: #10131a;
 }
 
 
