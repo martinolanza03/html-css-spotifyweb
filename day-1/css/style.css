@@ -18,6 +18,7 @@ main {
     width: 57px;
     background-color: #000000;
     padding: 10px 15px 20px 15px;
+    
 }
 
 .spotify-logo {
@@ -28,6 +29,10 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px ;
+}
+
+div.left-bar div.menu img {
+    color: #5c5c5c;
 }
 
 /* Utilities */
@@ -48,7 +53,7 @@ footer {
 }
 
 
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 992px) {
     .left-bar {
         height: calc(100vh - 90px);
         width: 450px;
