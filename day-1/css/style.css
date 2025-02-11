@@ -24,10 +24,20 @@ main {
     margin-bottom: 30px;
 }
 
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+}
+
 /* Utilities */
 
 .hidden {
     display: none;
+}
+
+.hidden-mobile {
+    display: block;
 }
 
 /* Footer */
@@ -35,4 +45,38 @@ main {
 footer {
     height: 90px;
     background-color: #282828;
+}
+
+
+@media screen and (min-width: 760px) {
+    .left-bar {
+        height: calc(100vh - 90px);
+        width: 450px;
+        background-color: #000000;
+        padding: 25px 75px 25px 21px;
+        color: white;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .hidden-mobile {
+        display: none;
+    }
+
+    .spotify-logo {
+        width: 100%;
+    }
+
+    div.left-bar div.menu div {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+    }
+
+    div.left-bar div.menu img {
+        height: 50px;
+    }
+    
 }
