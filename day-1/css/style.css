@@ -19,6 +19,12 @@ main {
     background-color: #000000;
 }
 
+/* Utilities */
+
+.hidden {
+    display: none;
+}
+
 /* Footer */
 
 footer {
