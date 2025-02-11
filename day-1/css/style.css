@@ -87,12 +87,13 @@ div.circle img {
 /* Main right-section */
 
 .right-section {
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .up-right {
-    height: 175px;
+    height: 90px;
     background-color: #10131a;
 }
 
@@ -193,6 +194,10 @@ footer {
         background-color: #949494;
         height: 1px;
         border: 0;
+    }
+
+    .up-right {
+        height: 170px ;
     }
     
 }
