@@ -13,6 +13,12 @@ main {
     background-color: #151922;
 }
 
+.left-bar {
+    height: calc(100vh - 90px);
+    width: 57px;
+    background-color: #000000;
+}
+
 /* Footer */
 
 footer {
