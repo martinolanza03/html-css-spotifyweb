@@ -64,6 +64,18 @@ div.playlist div.list-playlist ul {
 .user {
  display: flex;
  flex-direction: column;
+ gap: 10px;
+}
+
+div.left-bar div.user img {
+    width: 30px;
+    opacity: 0.5;
+}
+
+div.left-bar div.user div {
+    display: flex;
+    align-items: center;
+    gap: 7px;
 }
 
 /* Utilities */
@@ -90,6 +102,7 @@ div.playlist div.list-playlist ul {
 div.left-bar span {
     color: #949494 ;
 }
+
 
 /* Footer */
 
@@ -133,6 +146,7 @@ footer {
 
     div.left-bar div.menu img {
         height: 30px;
+        opacity: 0.5;
     }
 
     div.left-bar div.menu {
