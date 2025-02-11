@@ -104,6 +104,11 @@ footer {
         color: white;
     }
 
+    footer {
+        height: 170px;
+    }
+    
+
     .hidden {
         display: block;
     }
