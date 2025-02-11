@@ -54,6 +54,10 @@ div.left-bar div.menu img {
     width: 80px;
     height: 80px;
     background-color: #858585;
+    color: #000000;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 25px;
 }
 
 /* Footer */
