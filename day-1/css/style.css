@@ -25,7 +25,7 @@ main {
     height: calc(100vh - 90px);
     width: 57px;
     background-color: #000000;
-    padding: 15px 0;
+    padding: 10px 15px 20px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -67,6 +67,10 @@ div.playlist div.list-playlist ul {
  gap: 10px;
 }
 
+div.left-bar div.user img {
+    width: 30px;
+    opacity: 0.5;
+}
 
 div.left-bar div.user div {
     display: flex;
@@ -74,10 +78,10 @@ div.left-bar div.user div {
     gap: 7px;
 }
 
-div.left-bar img {
-    padding: 0 10px;
-    border-left: 2px solid transparent;
+div.circle img {
+    height: 22px;   
 }
+
 
 /* Utilities */
 
@@ -109,16 +113,11 @@ div.left-bar span {
     height: 30px;
     background-color: #858585;
     border-radius: 50%;
-    background-image: url(../../img/profile.svg);
-}
-
-.padding-for-leftbar {
-    padding: 0 15px;
 }
 
 /* Hover */
 
-div.left-bar div.menu img:hover {
+div.left-bar div.menu div:hover {
     border-left: 2px solid #b1f840;
 }
 /* Footer */
@@ -135,7 +134,7 @@ footer {
         height: calc(100vh - 90px);
         width: 300px;
         background-color: #000000;
-        padding: 25px 0px;
+        padding: 25px;
         color: white;
     }
 
@@ -159,6 +158,11 @@ footer {
         display: flex;
         align-items: center;
         gap: 25px;
+    }
+
+    div.left-bar div.menu img {
+        height: 30px;
+        opacity: 0.5;
     }
 
     div.left-bar div.menu {
