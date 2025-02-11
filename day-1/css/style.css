@@ -78,6 +78,11 @@ div.left-bar div.user div {
     gap: 7px;
 }
 
+div.circle img {
+    height: 22px;   
+}
+
+
 /* Utilities */
 
 .hidden {
@@ -102,6 +107,14 @@ div.left-bar div.user div {
 div.left-bar span {
     color: #949494 ;
 }
+
+.circle {
+    width: 30px;
+    height: 30px;
+    background-color: #858585;
+    border-radius: 50%;
+}
+
 
 
 /* Footer */
