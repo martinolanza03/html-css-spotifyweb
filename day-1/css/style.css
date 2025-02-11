@@ -36,8 +36,13 @@ main {
     gap: 10px ;
 }
 
-div.left-bar div.menu img {
-    color: #5c5c5c;
+.playlist {
+    display: flex;
+}
+
+.playlist div {
+    display: flex;
+    align-items: center;
 }
 
 /* Utilities */
@@ -59,6 +64,8 @@ div.left-bar div.menu img {
     font-weight: bold;
     padding: 25px;
 }
+
+
 
 /* Footer */
 
