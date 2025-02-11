@@ -50,6 +50,12 @@ div.left-bar div.menu img {
     display: block;
 }
 
+.add-playlist {
+    width: 80px;
+    height: 80px;
+    background-color: #858585;
+}
+
 /* Footer */
 
 footer {
@@ -61,7 +67,7 @@ footer {
 @media screen and (min-width: 992px) {
     .left-bar {
         height: calc(100vh - 90px);
-        width: 450px;
+        width: 460px;
         background-color: #000000;
         padding: 25px 75px 25px 21px;
         color: white;
@@ -86,7 +92,16 @@ footer {
     }
 
     div.left-bar div.menu img {
-        height: 50px;
+        height: 44px;
+    }
+
+    div.left-bar div.menu {
+        margin-bottom: 66px;
+    }
+
+    div.left-bar h2 {
+        margin-bottom: 30px;
+        font-size: 32px;
     }
     
 }
