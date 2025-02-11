@@ -10,6 +10,9 @@ body {
     font-family: "Montserrat", serif;
 }
 
+* ul {
+    list-style-type: none;
+}
 
 /* Main */
 
@@ -38,11 +41,21 @@ main {
 
 .playlist {
     display: flex;
+    flex-direction: column;
+    gap: 50px ;
 }
 
-.playlist div {
+div.playlist div {
     display: flex;
     align-items: center;
+}
+
+div.playlist div.list-playlist ul {
+    color: #949494 ;
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+
 }
 
 /* Utilities */
