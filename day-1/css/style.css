@@ -17,6 +17,11 @@ main {
     height: calc(100vh - 90px);
     width: 57px;
     background-color: #000000;
+    padding: 10px 15px 20px 15px;
+}
+
+.spotify-logo {
+    margin-bottom: 30px;
 }
 
 /* Utilities */
