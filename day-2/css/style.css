@@ -108,7 +108,7 @@ div.left-bar div.menu img {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 20px;
+    padding: 20px;
     position: sticky;
     top: 0;
     right: 0;
@@ -174,13 +174,24 @@ div.play ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:3px
+    gap: 10px
 }
 
 div.play ul li img {
     display: block;
-    width: 226px;
+    width: 100%;
 }
+
+div.play ul h3, h2 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+div.play ul li p {
+    color: #7d7f84;
+    font-weight: bold;
+}
+
 /* Utilities */
 
 .hidden {
@@ -283,6 +294,7 @@ footer {
     div.type ul li {
         width: calc((100% - 60px)/ 3) ;
     }
+
     
 }
 
@@ -294,6 +306,11 @@ footer {
 
     div.type ul li {
         width: calc((100% - 100px)/ 5) ;
+    }
+
+    div.play ul li img {
+        display: block;
+        width: 170px;
     }
     
 }
