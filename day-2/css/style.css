@@ -113,7 +113,11 @@ div.left-bar div.menu img {
     top: 0;
     right: 0;
 
+}
 
+.music {
+    display: flex;
+    flex-direction: column;
 }
 
 
