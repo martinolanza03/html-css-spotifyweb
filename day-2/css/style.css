@@ -118,9 +118,27 @@ div.left-bar div.menu img {
 .music {
     display: flex;
     flex-direction: column;
+    gap: 40px;
 }
 
+.type {
+    text-transform: uppercase;
+    color: #41444b ;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 0 auto;
+}
 
+div.type ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+div.type ul li {
+    width: calc((100% - 40px)/ 4) ;
+}
 /* Utilities */
 
 .hidden {
