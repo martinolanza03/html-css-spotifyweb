@@ -139,6 +139,21 @@ div.type ul {
 
 div.type ul li {
     width: calc((100% - 80px)/ 4) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3px
+}
+
+div.type ul li hr{
+    border: 0;
+    background-color: transparent;
+    height: 1px;
+    width: 30px;
+}
+
+div.type ul li hr:hover {
+    background-color: #b1f840;
 }
 /* Utilities */
 
