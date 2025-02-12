@@ -158,7 +158,8 @@ div.type ul li hr:hover {
 .play {
     display: flex;
     flex-direction: column;
-    padding: 0 17px
+    padding: 0 17px;
+    gap: 20px
 }
 
 div.play ul {
@@ -186,9 +187,10 @@ div.play ul h3, h2 {
     color: #FFFFFF;   
 }
 
-div.play ul li p {
+div.play p {
     color: #7d7f84;
     font-weight: bold;
+    margin-top: 10px;
 }
 
 /* Utilities */
