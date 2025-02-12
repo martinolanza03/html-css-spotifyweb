@@ -124,20 +124,21 @@ div.left-bar div.menu img {
 .type {
     text-transform: uppercase;
     color: #41444b ;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
     margin: 0 auto;
 }
 
 div.type ul {
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 div.type ul li {
-    width: calc((100% - 40px)/ 4) ;
+    width: calc((100% - 80px)/ 4) ;
 }
 /* Utilities */
 
