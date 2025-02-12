@@ -233,6 +233,10 @@ div.left-bar span {
     border-radius: 25px;
 }
 
+.img-circle {
+    border-radius: 50%;
+}
+
 /* Hover */
 
 div.left-bar div.menu div:hover {
