@@ -115,18 +115,11 @@ div.left-bar div.menu img {
 
 }
 
-.music {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-}
-
 .type {
     text-transform: uppercase;
     color: #7d7f84 ;
     font-size: 12px;
     font-weight: bold;
-    margin: 0 auto;
 }
 
 div.type ul {
@@ -254,5 +247,19 @@ footer {
         height: 1px;
         border: 0;
     }
+
+    div.type ul {
+        margin: 0 auto;
+        flex-wrap: nowrap;
+        width: 800px;
+    }
     
+}
+
+@media screen and (min-width: 768px) {
+    div.type ul {
+        margin: 0 auto;
+        flex-wrap: nowrap;
+        width: 800px;
+    }
 }
