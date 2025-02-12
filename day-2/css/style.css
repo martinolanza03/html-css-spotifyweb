@@ -35,7 +35,7 @@ main {
 }
 
 .spotify-logo {
-    height: 30px;
+    width: 30px;
     margin-bottom: 30px;
 }
 
@@ -43,7 +43,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px ;
-    height: 30px;
+    width: 30px;
 
 }
 
