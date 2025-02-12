@@ -165,7 +165,6 @@ div.play ul {
     padding-top: 15px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 10px;
 }
 
@@ -174,7 +173,8 @@ div.play ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px
+    gap: 10px;
+    text-align: center;
 }
 
 div.play ul li img {
@@ -183,8 +183,7 @@ div.play ul li img {
 }
 
 div.play ul h3, h2 {
-    color: #FFFFFF;
-    text-align: center;
+    color: #FFFFFF;   
 }
 
 div.play ul li p {
@@ -307,12 +306,13 @@ footer {
     div.type ul li {
         width: calc((100% - 100px)/ 5) ;
     }
-
-    div.play ul li img {
-        display: block;
-        width: 170px;
-    }
     
+    div.play ul li {
+        width: calc((100% - 40px)/ 4) ;
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
 }
 
 
@@ -322,6 +322,13 @@ footer {
         margin: 0 auto;
         flex-wrap: nowrap;
         width: 800px;
+    }
+
+    div.play ul li {
+        width: calc((100% - 60px)/ 6) ;
+        display: flex;
+        flex-direction: column;
+        gap: 10px
     }
     
 }
