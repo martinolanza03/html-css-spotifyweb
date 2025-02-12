@@ -31,10 +31,11 @@ main {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    border-left: 2px solid transparent;
 }
 
 .spotify-logo {
-    width: 30px;
+    height: 30px;
     margin-bottom: 30px;
 }
 
@@ -42,7 +43,8 @@ main {
     display: flex;
     flex-direction: column;
     gap: 10px ;
-    width: 30px;
+    height: 30px;
+
 }
 
 .playlist {
@@ -84,6 +86,10 @@ div.left-bar div.user div {
 
 div.circle img {
     height: 22px;   
+}
+
+div.left-bar div.menu img {
+    opacity: 0.5;
 }
 
 /* Main right-section */
@@ -138,6 +144,7 @@ div.left-bar span {
 div.left-bar div.menu div:hover {
     border-left: 2px solid #b1f840;
 }
+
 /* Footer */
 
 footer {
