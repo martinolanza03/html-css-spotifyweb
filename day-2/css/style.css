@@ -115,6 +115,12 @@ div.left-bar div.menu img {
 
 }
 
+.music {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .type {
     text-transform: uppercase;
     color: #7d7f84 ;
