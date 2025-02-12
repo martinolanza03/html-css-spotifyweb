@@ -51,7 +51,7 @@ main {
 .playlist {
     display: flex;
     flex-direction: column;
-    gap: 25px ;
+    gap: 20px ;
 }
 
 div.playlist div {
@@ -198,10 +198,6 @@ footer {
         background-color: #949494;
         height: 1px;
         border: 0;
-    }
-
-    .up-right {
-        height: 170px ;
     }
     
 }
