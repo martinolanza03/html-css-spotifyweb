@@ -365,7 +365,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    width: 50%;
+    flex-grow: 1;
 }
 
 .change-song {
@@ -421,12 +421,12 @@ footer {
 }
 
 .volume {
-    width: 30%;
     display: flex;
     flex-direction: row;
     gap: 7px;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
 }
 
 .volume i {
