@@ -101,7 +101,7 @@ div.left-bar div.menu img {
 
 .up-right {
     height: 90px;
-    background-color: #10131a;
+    background-color: rgba(8, 11, 18, 0.9);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -109,6 +109,7 @@ div.left-bar div.menu img {
     position: sticky;
     top: 0;
     right: 0;
+    z-index: 2;
 
 }
 
@@ -297,6 +298,7 @@ div.left-bar div.user div:hover img {
     opacity: 1;
     cursor: pointer;
 }
+
 /* Footer */
 
 footer {
