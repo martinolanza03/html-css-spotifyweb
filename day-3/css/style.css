@@ -264,7 +264,14 @@ div.play ul li div.ready:hover div.ready-hover{
     color: #FFFFFF;
     font-size: 50px;
 }
+div.left-bar div.menu div:hover span{
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
+div.left-bar div.menu div:hover img {
+    opacity: 1;
+}
 
 /* Footer */
 
@@ -287,7 +294,7 @@ footer {
         border-left: 2px solid transparent ;
     }
 
-    div.left-bar div.menu div:hover {
+    div.left-bar div.menu div:hover{
         border-left: 2px solid #b1f840;
     }
    
