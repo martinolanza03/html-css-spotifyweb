@@ -110,7 +110,7 @@ div.left-bar div.menu img {
     top: 0;
     right: 0;
     z-index: 2;
-
+    flex-shrink: 0;
 }
 
 .music {
@@ -296,6 +296,13 @@ div.left-bar div.user div:hover span {
 
 div.left-bar div.user div:hover img {
     opacity: 1;
+    cursor: pointer;
+}
+
+.upgrade-button:hover {
+    padding: 17px 43px;
+    border: 1px solid #FFFFFF;
+    font-weight: bold;
     cursor: pointer;
 }
 
