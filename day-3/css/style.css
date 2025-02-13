@@ -247,9 +247,13 @@ div.left-bar span {
 
 /* Hover */
 
-
 div.type ul li:hover hr{
     background-color: #b1f840;
+}
+
+div.type ul li:hover {
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 div.play ul li div.ready:hover div.ready-hover{
