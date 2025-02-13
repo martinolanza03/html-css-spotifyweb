@@ -137,7 +137,6 @@ div.type ul {
 }
 
 div.type ul li {
-    width: calc((100% - 80px)/ 4) ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,12 +294,7 @@ footer {
         height: 1px;
         border: 0;
     }
-
-    div.type ul li {
-        width: calc((100% - 60px)/ 3) ;
-    }
-
-    
+   
 }
 
 @media screen and (min-width: 768px) {
@@ -308,11 +302,7 @@ footer {
         margin: 0 auto;
         flex-wrap: wrap;
     }
-
-    div.type ul li {
-        width: calc((100% - 100px)/ 5) ;
-    }
-    
+   
     div.play ul li {
         width: calc((100% - 40px)/ 4) ;
         display: flex;
@@ -323,12 +313,6 @@ footer {
 
 
 @media screen and (min-width: 992px) {
-
-    div.type ul {
-        margin: 0 auto;
-        flex-wrap: nowrap;
-        width: 800px;
-    }
 
     div.play ul li {
         width: calc((100% - 60px)/ 6) ;
