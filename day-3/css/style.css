@@ -307,7 +307,7 @@ div.left-bar div.user div:hover img {
     cursor: pointer;
 }
 
-div.running-time:hover {
+.slide-bar:hover div.running-time {
     display: block;
     border-radius: 8px;
     height: 4px;
