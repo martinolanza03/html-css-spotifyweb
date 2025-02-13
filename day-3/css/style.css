@@ -202,6 +202,8 @@ div.play ul li div.ready div.ready-hover {
     cursor: pointer;
 }
 
+
+
 /* Utilities */
 
 .hidden {
@@ -310,6 +312,41 @@ div.left-bar div.user div:hover img {
 footer {
     height: 90px;
     background-color: #282828;
+    display: flex;
+}
+
+.song {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+    gap: 10px;
+}
+
+.song img {
+    width: 30px;
+    display: block;
+}
+
+.song h6 {
+    font-weight: bold;
+    font-size: 8px;
+    color: #FFFFFF;
+}
+
+.song p {
+    font-size: 8px;
+    color: #7b7b7b;
+}
+
+.song div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.song div i {
+    color: #7b7b7b;
 }
 
 @media screen and (min-width: 576px) {
