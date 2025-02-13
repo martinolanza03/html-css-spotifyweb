@@ -288,6 +288,15 @@ div.left-bar div.playlist div.list-playlist li:hover {
     cursor: pointer;
 }
 
+div.left-bar div.user div:hover span {
+    color: #FFFFFF;
+    cursor: pointer ;
+}
+
+div.left-bar div.user div:hover img {
+    opacity: 1;
+    cursor: pointer;
+}
 /* Footer */
 
 footer {
