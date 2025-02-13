@@ -307,14 +307,22 @@ div.left-bar div.user div:hover img {
     cursor: pointer;
 }
 
+div.running-time:hover {
+    display: block;
+    border-radius: 8px;
+    height: 4px;
+    background-color: #b1f840;
+    z-index: 2;
+    cursor: pointer;
+}
+
 /* Footer */
 
 footer {
     height: 90px;
     background-color: #282828;
     display: flex;
-    justify-content: space-between;
-    
+    font-size: 12px;
 }
 
 .song {
@@ -332,12 +340,10 @@ footer {
 
 .song h6 {
     font-weight: bold;
-    font-size: 8px;
     color: #FFFFFF;
 }
 
 .song p {
-    font-size: 8px;
     color: #7b7b7b;
 }
 
@@ -357,6 +363,8 @@ footer {
     gap: 16px;
     justify-content: center;
     align-items: center;
+    width: 50%;
+    flex-shrink: 0;
 }
 
 .change-song {
@@ -364,6 +372,39 @@ footer {
     flex-direction: row;
     gap: 20px;
 }
+
+
+.minute {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.slide-bar {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.bar-minute {
+    height: 4px;
+    background-color: #5a5a5a;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.running-time {
+    position: absolute;
+    display: none;
+    width: 30%;
+    left: 0;
+    top: 0;
+}
+
 
 @media screen and (min-width: 576px) {
 
