@@ -275,10 +275,17 @@ div.left-bar div.menu div:hover img {
 
 div.left-bar div.playlist div:hover div.add-playlist {
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 div.left-bar div.playlist div:hover span {
     color: #FFFFFF;
+    cursor: pointer;
+}
+
+div.left-bar div.playlist div.list-playlist li:hover {
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 /* Footer */
