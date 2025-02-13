@@ -298,11 +298,6 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-    div.type ul {
-        margin: 0 auto;
-        flex-wrap: wrap;
-    }
-   
     div.play ul li {
         width: calc((100% - 40px)/ 4) ;
         display: flex;
