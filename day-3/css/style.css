@@ -177,6 +177,7 @@ div.play ul li {
 div.play ul li img {
     display: block;
     width: 100%;
+    position: relative;
 }
 
 div.play ul h3, h2 {
@@ -187,6 +188,19 @@ div.play p {
     color: #7d7f84;
     font-weight: bold;
     margin-top: 10px;
+}
+
+.ready {
+    position: relative;
+}
+
+div.play ul li div.ready div.ready-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
 }
 
 /* Utilities */
@@ -241,6 +255,15 @@ div.left-bar div.menu div:hover {
 
 div.type ul li:hover hr{
     background-color: #b1f840;
+}
+
+div.play ul li div.ready:hover div.ready-hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    font-size: 50px;
 }
 
 
