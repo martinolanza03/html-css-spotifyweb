@@ -330,7 +330,7 @@ div.left-bar div.user div:hover img {
     cursor: pointer;
 }
 .change-song i.fa-circle-play:hover {
-    font-size: 26px;
+    transform: scale(1.2);
     cursor: pointer;
 }
 
